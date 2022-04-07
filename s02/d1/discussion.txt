@@ -1,0 +1,58 @@
+## To open our terminal under Documents directory on our file explorer, right click then select 'Open Git Bash Here' or for mac users 'New Terminal'
+
+## To make sure that we are working on a folder, run the command on the terminal:
+
+$ pwd
+
+pwd - stands for present working directory, this will return your path where you are currently at
+
+## To create a new folder under a present working directory, run command:
+
+$ mkdir <foldername>
+
+ex. mkdir llapitan-chris
+
+mkdir - stands for make directory, this will make a new folder called 'llapitan-chris'
+
+## To check if the new folder is present or already created under a present working directory, run command:
+
+$ ls -a
+
+ls -a stands for list all, this will give you the list of folders and files available.
+
+## To go inside the folder we created, run command:
+
+$ cd <foldername>
+
+ex. cd llapitan-chris
+
+cd - stands for change directory, and this will change your directory based on a given foldername
+
+## To go outside a folder, run command:
+
+$ cd ../
+
+../ - means you will go up one level, so if your are on your own folder (llapitan-chris), and you run this, your present working directory must be on Documents now.
+---------------------------------------------
+## Mini activity:
+
+1. Go inside your lastname-firstname directory
+2. Create a sub directory called 's02'
+3. Go inside the 's02'
+4. Create 2 sub directories called 'd1' and 'a1'
+
+Solution:
+
+cd llapitan-chris
+mkdir s02
+cd s02
+mkdir d1
+mkdir a1
+---------------------------------------------
+## To create a file inside a directory (d1), run command:
+
+$ touch <filename.fileextension>
+
+ex. touch discussion.txt
+
+touch - will create a new file on your present working directory.

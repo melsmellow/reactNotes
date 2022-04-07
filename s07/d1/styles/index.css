@@ -1,0 +1,89 @@
+* {
+	font-family: 'Open Sans', sans-serif;
+	/*Reset CSS*/
+	/*margin 0 and padding 0, deletes the default padding and margin of all the element on our webpage*/
+	/*Giving the padding and margin 0, makes it easier for us to manipulate the sizes and positions of our elements. Gives us also the freedom to customize their own spacing.*/
+	margin:0;
+	padding:0;
+	/* box-sizing - defines how the width and height of our element are calculated
+	   border-box - will allow us to control the measurement of our elements better. It includes the padding, border styling of our element tot the total height and width in its computation.
+	*/
+	box-sizing: border-box;
+}
+
+nav {
+	border-bottom: 1px solid gray;
+	padding:0.8rem; /*rem stands for pixels based on the 'root element'*/
+	margin-bottom: 2rem; /*creates space between nav and section intro*/
+}
+
+nav ul .nav-logo, nav ul .nav {
+	list-style-type: none;
+	display: inline;
+	margin: 0.5rem; /*short hand for margin-top, margin-right, margin-bottom & margin-left*/
+}
+
+#intro {
+	text-align: center;
+	padding:10%; /*10% gets its value from its parent element which is the body tag.*/
+}
+
+section > .header {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+section p {
+	margin-bottom: 55px;
+}
+
+#intro button {
+	padding: 1rem;
+	border-radius: 25px;
+	background-color: #c2195b;
+	color:white;
+	font-weight: bold; /*changes the thickness of our texts*/
+}
+
+#succeed-info > div {
+	display: flex;
+	padding-left: 10%;
+	padding-right: 10%;
+	justify-content: space-around;
+}
+
+#succeed-info > div > .card {
+	margin: 0 15px;
+}
+
+#succeed-info > div > .card > h3 {
+	text-align: center;
+}
+
+
+
+#pre-footer {
+
+	display: flex;
+	height: 170px;
+	padding-top: 10px;
+    background-color: #002540;
+	color: white;
+	/*justify-content: space-between;*/
+	/*align-items: flex-end;*/ /*aligns item from top to bottom*/
+
+}
+
+#pre-footer p , #pre-footer h3{
+	
+	margin-bottom: 5px; /*spaces between texts*/
+
+}
+
+#pre-footer div {
+	width: 20%; /*width of each flex item */
+	margin-bottom: 5px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+

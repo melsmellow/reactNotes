@@ -1,0 +1,72 @@
+/** {
+	background-color: #C5C6C7;
+
+
+}*/
+
+#nbar , #nbar > div , #nbar > div > ul > li {
+	background-color: #0B0C10;
+	
+}
+
+/*Change all the text color of the anchor tag on the navbar*/
+#nbar a{
+	color: #66FCF1 ;
+}
+
+
+#accordionExample div {
+	background-color: #0B0C10;
+}
+
+
+
+/*.card .card-body {
+	background-color: #45A29E;
+}*/
+
+.card a , .card button{
+	color: #66FCF1 ;
+}
+
+.conText {
+	color: #66FCF1 ;
+}
+
+}
+/*
+#nbtn {
+	background-color: #66FCF1;
+}*/
+
+#profile-pic {
+	width:250px;
+	height: auto;
+	
+}
+
+#ptext {
+	font-size: 20px;
+
+}
+
+#abtMeCon > div ,#abtMeCon .conText {
+	background-color: #1F2833;
+}
+
+
+#headingOne {
+	background-color: pink;
+}
+
+#cfc #ContactMe {
+	background-color: #0B0C10;
+}
+
+
+
+/*Navbar*/
+#ni1:hover {
+		color: #e43c5c;
+	  text-decoration: underline;
+}

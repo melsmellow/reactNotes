@@ -1,0 +1,64 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+h1, p {
+	background-color: #dde0e3; /*light gray*/
+	margin:15px; /*applied to the top-right-bottom-left*/
+	/*instead of using margin-top, margin-bottom, margin-right & margin-left*/
+	/*margin:20px 15px;*/ /*top-bottom right-left*/
+	/*margin:20px 5px 0px 10px;*/ /*trbl - top-right-bottom-left*/
+	padding: 10px;  /*all paddings sides are recognized by block level elements*/
+	border: 1px solid red;
+}
+
+em, strong {
+	background-color: indianred;
+	display: inline-block;
+	padding: 100px;
+	/*padding top and bottom, does not recognized on the inline level element*/
+	/*But the padding left and right are recognized and took effect on our elements*/
+	border:1px solid black;
+	margin:50px; 
+	/*margin top and bottom does not took effect on the inline level elements*/
+	/*margin left and right are recognized on inline level elements*/
+}
+
+/*
+
+	inline-block - combined behaviour or inline and block elements
+	- has the behaviour of inline level display and can set the padding top and bottom and the margin-top and bottom for its spaces.
+*/
+
+#strong-tag {
+	display: inline-block;
+	
+}
+
+.flex-container {
+	border: 1px solid;
+	padding: 20px;
+	background-color: darkgray;
+	display: flex; /*main container.*/
+	/*justify-content: center;*/
+	/*justify-content: space-between;*/
+	justify-content: space-around;
+}
+
+.flex-item	{
+	height: auto;
+	width: 250px;
+	background-color: coral;
+	border: 1px solid maroon;
+
+}
+
+.flex-item > h2 {
+	text-align: center;
+}
+
+.flex-item > img {
+	width: inherit;
+
+}

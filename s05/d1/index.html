@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>HTML Tables, Form and Semantic HTML</title>
+</head>
+<body>
+	<h1>HTML Forms</h1>
+	<form action="" method="">
+		<label for="firstname">First Name:</label>
+		<input id="firstname" type="text">
+
+		<br>
+
+		<label for="lastname">Last Name:</label>
+		<input id="lastname"type="text">
+
+		<br>
+
+		<label for="email">Email:</label>
+		<input id="email" type="email">
+
+		<br>
+
+		<label for="password">Password:</label>
+		<input id="password" type="Password">
+
+		<br>
+
+		<label for="age">Age:</label>
+		<input id="age" type="number">
+
+		<br>
+
+		<!-- names attribute - gives a name for our input  -->
+		<!-- value attribute - gives a unique value associated with each button -->
+
+		<label>Gender:</label>
+		<input type="radio" name="gender" value="female"> <label>Female</label>
+		<input type="radio" name="gender" value="male"> <label>Male</label>
+		<input type="radio" name="gender" value="others"> <label>Others</label>
+
+		<br>
+
+		<label>Hobbies:</label>
+		<input type="checkbox" name="hobbies" value="eating"> <label>Eating</label>
+		<input type="checkbox" name="hobbies" value="watching movies"> <label>Watcing Movies</label>
+		<input type="checkbox" name="hobbies" value="reading books"> <label>Reading Books</label>
+		<input type="checkbox" name="hobbies" value="baking"> <label>Baking</label>
+
+		<br>
+
+		<label>Post a short description of yourself:</label>
+		<br>
+		<textarea name="description" cols="40" rows="10"></textarea>
+
+		<br>
+
+		<fieldset> <!-- it groups an input for specefic section on our form -->
+			<legend>Contact details:</legend><!-- gives details or tilte for our grouped related inputs -->
+			<label for="mobile">Mobile No.</label>
+			<input id="mobile" type="text" name="mobile">
+
+			<br>
+
+			<label for="address">Address</label>
+			<br>	
+			<textarea name="address" id="address" cols="30" rows="10"></textarea>
+		</fieldset>
+
+		<br>
+		<button type="submit">Register</button>
+
+	</form>
+
+		<!-- semantic html -->
+		<p>
+			Semantic HTML <b>clearly defines</b> its <strong>meaning</strong> to both computer and the developer
+		</p>
+
+		<nav>
+			<a href="">Go to Home page</a>
+			<a href="">Log in</a>
+			<a href="">Contact us</a>
+
+		</nav>
+
+		<div><!-- div tag - division - generic container, gives division to our article-->
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
+			</p>
+		</div>
+
+		<main>
+			<section>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				</p>
+			</section>
+		</main>
+
+		<br>
+
+		<table border="1">
+			<tr><!-- tr tag - table row -->
+				<!-- th - table head - adds a title to our columns -->
+				<th>day</th>
+				<th>9am</th> 
+				<th>10am</th>
+				<th>11am</th>
+			</tr>
+
+			<tr>
+				<td>Monday</td> <!-- adds data to our rows and columns -->
+				<td>Geography</td>
+				<td>Math</td>
+				<td>English</td>
+			</tr>
+
+			<tr>
+				<td>Tuesday</td>
+				<td></td>
+				<td>Art</td>
+				<td>Gym</td>
+			</tr>
+
+			<tr>
+				<td>Wednesday</td>
+				<td>Filipino</td>
+				<td></td>
+				<td>History</td>
+			</tr>
+
+			<tr>
+				<td>Thursday</td>
+				<td colspan="2">Philosophy</td> <!-- how many columns shoudl this table data span on our table -->
+				<td>ROTC</td>
+
+			</tr>
+
+			<tr>
+				<td rowspan="2">Friday & Saturday</td>
+				<td>Math 2</td>
+				<td>Chemistry</td>
+				<td></td>
+			</tr>
+
+			<tr>
+				<td>Math 2</td>
+				<td>Chemistry</td>
+				<td></td>
+			</tr>
+		</table>
+		
+		<footer>
+			<div>
+				<p>
+					Address:
+				</p>
+				<p>
+					Mobile No.:
+				</p>
+			</div>
+		</footer>
+
+</body>
+</html>

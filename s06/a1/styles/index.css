@@ -1,0 +1,56 @@
+
+
+* {  
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	
+}
+
+#p3 {
+
+	color: yellow;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+#head2 {
+
+	text-transform: uppercase;
+}
+
+.first-list  > li {
+		background-color: #AED0A1;
+}
+
+
+ol[type] > li{
+
+	border-style: solid;
+	border-width: 1px;
+	border-color: blue;
+
+}
+
+img + ul  {
+	
+	letter-spacing: 5px;
+	list-style-type: none;
+	
+
+}
+
+
+section img	 {
+
+	height: 150px;
+	width: 150px;
+	border-radius: 200px;
+}
+
+
+ul ~ p {
+
+	text-align: center;
+}

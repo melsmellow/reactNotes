@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"> <!-- the way of browser to read our meta tags and our html tags -->
+
+	<!-- meta viewport - way to have a mobile responsive website -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>Bootstrap Introduction | Components and Tools</title>
+
+	<!-- bootstrap css -->
+	<link rel="stylesheet" href="./styles/bootstrap/css/bootstrap.min.css">
+
+	<!-- font awesome -->
+	<script src="https://kit.fontawesome.com/4de2b5cbee.js" crossorigin="anonymous"></script>
+
+	<!-- external css -->
+	<link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+
+<!-- 	<h1>Bootstrap Introduction and its tools and components we can use for a much faster way of layouting our website.</h1>
+	<div class="alert alert-primary" role="alert">
+		A simple primary alert—check it out!
+	</div>
+	<button type="button" class="btn btn-primary">Primary</button>
+	<button type="button" class="btn text-white" id="about-button"> Apply Now </button>
+ -->
+
+ 	<!-- Navbar -->
+ 	<!-- 
+ 		lg means - large - desktops monitors, tv
+		md means - medium - tablets
+		sm means - small - mobiles
+
+		bg - background color (dark = black)
+		bg primary - blue
+ 	 -->
+ 	<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+ 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+ 			<span class="navbar-toggler-icon"></span>
+ 		</button>
+
+ 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+ 			<!-- 
+ 				mr-auto = margin-right auto - adds a margin on the right side, moving the nav items to the left side of the nav bar
+ 				ml-auto = margin-left auto - adds a margin on the left side, moving the nav items to the right side
+ 				mx-auto = margin x axis auto - adds the margin left and right, moving our nav items to the center
+ 			 -->
+ 			<ul class="navbar-nav mx-auto"> 
+ 				<li class="nav-item active">
+ 					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+ 				</li>
+ 				<li class="nav-item">
+ 					<a class="nav-link" href="#">About Me</a>
+ 				</li>
+ 				<li class="nav-item">
+ 					<a class="nav-link" href="#">Projects</a>
+ 				</li>
+ 			</ul>
+ 		</div>
+ 	</nav>
+ 	<!-- End of Navbar -->
+
+ 	<div class="text-center" id="intro">
+ 		<img src="https://i.guim.co.uk/img/media/3656ae6ea2209d4561caf04fa9f172a519908ca3/0_28_2318_1391/master/2318.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=afcc355f47876bc495cdc3c902639bae" alt="ada-lovelace" class="img-size rounded-circle">
+
+ 		<!-- mt-3 = stands for margin-top-->
+ 		<div class="mt-4"> <!-- generic container -->
+	 		<h2 class="border-bottom border-primary d-inline">Ada Lovelace</h2>
+ 		</div> 
+
+ 		<h4 class="my-3">Full-Stack Web Developer</h4>
+ 		<p class="mx-auto w-50">
+ 			Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem deserunt fuga vitae odit quaerat minus, repellat libero ipsa in, ullam fugit dicta tempore sit, eius ex nesciunt officia! Blanditiis, atque.
+ 			Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta minima dolores delectus quod ipsa officia repellendus ipsum! Eaque vel cumque, nam facilis autem eum suscipit quis ad, cum, fugiat tenetur.
+ 		</p>
+ 	</div>
+
+ 	<div class="d-flex justify-content-center text-white text-center bg-secondary py-5">
+ 		<div class="w-25 bg-dark p-4 mx-4 rounded">
+ 			<img class="img-fluid" src="https://getbootstrap.com/docs/4.0/examples/screenshots/album.png" alt="project-1">
+ 			<h3 class="mt-3">My First Project</h3>
+ 			<p class="mt-3">A simple project made from HTML</p>
+ 		</div>
+
+ 		<div class="w-25 bg-dark p-4 mx-4 rounded">
+ 			<img class="img-fluid" src="https://getbootstrap.com/docs/4.0/examples/screenshots/jumbotron.png" alt="project-2">
+ 			<h3 class="mt-3">My Second Project</h3>
+ 			<p class="mt-3">A simple project made from CSS</p>
+ 		</div>
+
+ 		<div class="w-25 bg-dark p-4 mx-4 rounded">
+ 			<img class="img-fluid" src="https://getbootstrap.com/docs/4.0/examples/screenshots/carousel.png" alt="project-3">
+ 			<h3 class="mt-3">My Third Project</h3>
+ 			<p class="mt-3">A simple project made from Bootstrap</p>
+ 		</div>
+ 	</div>
+
+ 	<footer class="text-center p-3 bg-primary">
+ 		<p class="text-white m-0">All assets are used for education purpose only.</p>
+ 	</footer>
+
+
+	<!-- jquery min js -->
+	<script src="./styles/bootstrap/js/jquery-3.6.0.min.js"></script>
+
+	<!-- popper min js -->
+	<script src="./styles/bootstrap/js/popper.min.js"></script>
+
+	<!-- Bootstrap js -->
+	<script src="./styles/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+<!-- 
+
+	m - margin
+	p - padding
+
+	1 - 4px
+	2 - 8px
+	3 - 16px
+	4 - 24px
+	5 - 48px
+
+	.pt-1 {
+		padding-top: 4px;
+	}
+	auto - ml, mr, mb, mt and mx
+	<p class="m-auto"> Hello </p>
+
+
+	d - display
+
+	25% left 50% paragraph 25% right = 100% browser
+
+
+	My p50%				my second project 25% my third project 25%
+
+
+	1. Push our s08/d1 to gitlab repository named 's08-d1'
+	2. Link it to our boodle WD078-8
+

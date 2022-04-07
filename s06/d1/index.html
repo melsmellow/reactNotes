@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Introduction and CSS Selectors</title>
+	<!-- style tag - tag to implement style to our html tags -->
+	<style> /* Internal CSS */
+		/* h2 - is what we call a selector
+			selector - it choose the html tag base on a given tagname or an attribute name
+			css will select all the h2 tags on our html code and give it a styling
+		 */
+		 /*css rule set*/
+/*		h2 {
+			color:blue;
+		}
+		*/
+		/*css rule set*/
+		/*main {
+			color:orange;
+		}
+*/
+	</style>
+	<!-- Google font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+	<!-- Fontawesome -->
+	<script src="https://kit.fontawesome.com/4de2b5cbee.js" crossorigin="anonymous"></script>
+
+	<!-- link tag - way to link our external css file -->
+	<link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+
+
+	<nav id="top">
+		<a href="#landing">Zuitt</a>
+		<div>
+			<a href="#landing">Landing</a>
+			<a href="#register">Register</a>
+		</div>
+	</nav>
+
+	<!-- style attribute - adds a styling and layout for our html tags -->
+	<!-- we indicated to give a color red to our h1 tag -->
+	<!-- the 'color' is a css property/rule, that give a color to the text contained by an html tag -->
+	<!-- inline css -->
+	<!-- <h1 style="color: red;">Hello World!</h1> -->
+	<h1>Hello World!</h1>
+	<h2 class="heading-n">Welcome to Zuitt! <i class="fas fa-code"></i></h2>
+	<h3 id="zuitt-motto">Opportunities for everyone, everywhere!</h3>
+
+	<img src="https://place-puppy.com/450x450" alt="cute-puppy">
+
+	<div id="landing">
+		<ol>
+			<li class="offering-item">Day Classes</li>
+			<li class="offering-item">Night Classes</li>
+			<li class="offering-item">Intro to coding events</li>
+			<li class="offering-item">Schedules</li>
+		</ol>
+		<a href="#top">Back to Top</a>
+	</div>
+		
+	<div id="register">
+		<h2>Register</h2>
+		<form>
+			<label for="first-name">First Name</label>
+			<input type="text" id="first-name" required>
+
+			<label for="last-name">Last Name</label>
+			<input type="text" id="last-name" required>
+
+			<label for="email">Email</label>
+			<input type="text" id="email" required>
+
+			<button type="submit">Apply Now</button>
+		</form>
+		<a href="#top">Back to Top</a>
+	</div>
+
+<!-- 	<div id="sample">
+		<p>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita voluptate consequuntur in quidem nihil atque itaque eum, tempora dolorem commodi similique corrupti sunt nobis at ullam voluptates non! Nostrum, earum?
+		</p>
+		<p>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni voluptatibus omnis voluptatem assumenda vel quo pariatur corporis sequi consectetur! Cupiditate odit delectus itaque, vitae consequuntur accusamus dolorum aliquid quos! Velit.
+		</p>
+		
+		<div class="nested-div">
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae explicabo expedita temporibus quidem officia quia fugit, sit aliquam omnis nesciunt nobis illo molestiae nisi est, quasi inventore eum reiciendis consequatur!
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia animi repellat vel suscipit facilis minus id necessitatibus saepe esse rem, aut fugit deserunt explicabo ut recusandae, commodi nam fugiat, cumque.
+				<a href="">I am an anchor tag</a>
+			</p>
+		</div>
+
+	</div>
+
+	<p>
+		Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Enim, ullam.
+	</p>
+
+	<p>
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, enim.
+	</p> -->
+
+</body>
+</html>
